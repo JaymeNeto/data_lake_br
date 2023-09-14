@@ -1,0 +1,33 @@
+{
+  "ELEITORADO" : {
+    'url_base': "http://agencia.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_%(ano)d.zip",
+    'adicionais': ['http://agencia.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_ATUAL.zip'],
+    'folder_name': 'eleitorado' 
+    },
+    
+    "CANDIDATOS" : {
+      "url_base": "http://agencia.tse.jus.br/estatistica/sead/odsele/consulta_cand/consulta_cand_%(ano)d.zip",
+      "folder_name": "candidatos"
+      },
+
+    "CANDIDATOS_BENS" : {
+      'url_base': 'http://agencia.tse.jus.br/estatistica/sead/odsele/bem_candidato/bem_candidato_%(ano)d.zip',
+      'folder_name': 'candidatos_bens'
+      },
+
+"CANDIDATOS_LEGENDAS" : {'url_base': "http://agencia.tse.jus.br/estatistica/sead/odsele/consulta_legendas/consulta_legendas_%(ano)d.zip",
+                       'folder_name': 'candidatos_legendas' },
+
+"CANDIDATOS_VAGAS" : {'url_base': "http://agencia.tse.jus.br/estatistica/sead/odsele/consulta_vagas/consulta_vagas_%(ano)d.zip",
+                    'folder_name': 'candidatos_vagas'
+                    },
+
+"RESULTADOS_APURACAO" : {'url_base': "http://agencia.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_uf/detalhe_votacao_uf_%(ano)d.zip",
+                       'folder_name': 'resultados_apuracao'},
+
+"RESULTADOS_VOTACAO_NOMINAL" : {'url_base': "http://agencia.tse.jus.br/estatistica/sead/odsele/votacao_candidato_uf/votacao_candidato_uf_%(ano)d.zip",
+                              'folder_name': 'resultados_votacao_nominal'},
+
+"RESULTADOS_VOTACAO_PARTIDO" : {'url_base': "http://agencia.tse.jus.br/estatistica/sead/odsele/votacao_partido_uf/votacao_partido_uf_%(ano)d.zip",
+                              'folder_name': 'resultados_votacao_partido'}
+}

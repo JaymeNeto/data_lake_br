@@ -4,7 +4,7 @@ from tqdm import tqdm
 import zipfile
 
 class DataDownloader:
-    def __init__(self, base_dir='dados/brutos'):
+    def __init__(self, base_dir='/dbfs/mnt/datalake/tse/zip_file'):
         self.base_dir = base_dir
         self.base_url = 'https://cdn.tse.jus.br/estatistica/sead/odsele/'
         self._create_global_directories()
